@@ -44,12 +44,12 @@ $(window).on('load', function() {
 	$('.hero-slider').owlCarousel({
 		loop: true,
 		nav: false,
-		dots: true,
+		dots: false,
 		mouseDrag: false,
 		animateOut: 'fadeOut',
     	animateIn: 'fadeIn',
 		items: 1,
-		autoplay: true
+		autoplay: false
 	});
 	var dot = $('.hero-slider .owl-dot');
 	dot.each(function() {
